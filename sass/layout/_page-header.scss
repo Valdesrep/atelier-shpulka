@@ -1,0 +1,125 @@
+.page-header {
+  position: sticky;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #eae9e5e8;
+
+
+  @media screen and (min-width: 480px) {
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-right: 35px;
+    padding-left: 35px;
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  @media screen and (min-width: 1200px) {
+    min-width: 100%;
+  }
+}
+
+.number-box {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.number {
+  color: #7a7a7a;
+  cursor: pointer;
+  font-weight: 700;
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+.button-box {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.mob-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.nav-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    top: 0;
+    right: -888px;
+    background-color: #eae9e5e8;
+    flex-direction: column;
+    align-items: start;
+    width: 420px;
+    height: 500px;
+    padding: 90px 50px 50px 80px;
+    transition: transform 1000ms;
+
+  }
+}
+.page-header.open .nav-list {
+  @media screen and (max-width: 767px) {
+    transform: translateX(-888px);
+  }
+}
+
+.nav-item {
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+.nav-link {
+  color: #7a7a7a;
+  font-weight: 700;
+  cursor: pointer;
+
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  &:hover,
+  &:focus {
+    color: black;
+    text-decoration: underline;
+  }
+}
+.page-header.open .nav-btn-close {
+  display: block;
+  color: #000;
+  position: absolute;
+  top: 28px;
+  right: 45px;
+  z-index: 500;
+}
+.nav-btn-close {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
