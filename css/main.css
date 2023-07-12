@@ -31,7 +31,7 @@ a {
 }
 
 .container {
-  width: 480px;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -39,12 +39,12 @@ a {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -250,7 +250,7 @@ a {
   background-color: rgba(234, 233, 229, 0.9098039216);
   flex-direction: column;
   align-items: start;
-  width: 480px;
+  max-width: 480px;
   height: 500px;
   padding: 90px 50px 50px 80px;
 }
@@ -397,12 +397,11 @@ a {
 
 .page-hero {
   background-size: contain;
-  height: 286px;
-  width: 480px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/coverww.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/coverww.jpg");
   padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
@@ -412,9 +411,9 @@ a {
 }
 @media screen and (min-width: 768px) {
   .page-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/cover.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/cover.jpg");
     height: 386px;
-    width: 768px;
+    max-width: 768px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 80px;
@@ -423,10 +422,9 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .page-hero {
-    background-image: url(../../images/cover.jpg);
+    background-image: url("../../images/cover.jpg");
     height: 600px;
-    max-width: 11110;
-    width: 1200px;
+    max-width: 1200px;
     padding-top: 120px;
     padding-bottom: 40px;
     padding-left: 80px;
@@ -717,17 +715,17 @@ a {
 .page-footer {
   background-color: #f2f2f2;
   padding: 30px;
-  width: 480px;
+  max-width: 480px;
   margin: auto;
 }
 @media screen and (min-width: 768px) {
   .page-footer {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .page-footer {
-    width: 1200px;
+    mqx-width: 1200px;
   }
 }
 

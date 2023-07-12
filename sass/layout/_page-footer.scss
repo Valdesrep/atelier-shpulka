@@ -1,13 +1,13 @@
 .page-footer {
   background-color: #f2f2f2;
   padding: 30px;
-  width: 480px;
+  max-width: 480px;
   margin: auto;
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    mqx-width: 1200px;
   }
 }
 .footer-box {
