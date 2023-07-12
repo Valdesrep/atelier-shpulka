@@ -1,12 +1,9 @@
 .page-header {
-  position: sticky;
   margin: auto;
   display: flex;
   align-items: center;
-  padding-right: 25px;
-  padding-left: 25px;
   background-color: #eae9e5e8;
-
+  z-index: 9999;
 
   @media screen and (min-width: 480px) {
     padding-top: 10px;
@@ -23,14 +20,17 @@
     padding-left: 40px;
   }
   @media screen and (min-width: 1200px) {
-    min-width: 100%;
+    width: 1200px;
   }
 }
 
 .number-box {
   margin-left: auto;
   margin-right: auto;
-
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
   @media screen and (min-width: 1200px) {
     margin-right: 0;
     margin-left: 0;
@@ -44,6 +44,10 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 1.16;
+  }
+  &:hover,
+  &:focus {
+    color: #000;
   }
 }
 .button-box {
@@ -72,7 +76,6 @@
     height: 500px;
     padding: 90px 50px 50px 80px;
     transition: transform 1000ms;
-
   }
 }
 .page-header.open .nav-list {
@@ -116,6 +119,10 @@
   top: 28px;
   right: 45px;
   z-index: 500;
+}
+.header-icon {
+  width: 30px;
+  height: 30px;
 }
 .nav-btn-close {
   display: none;

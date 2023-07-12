@@ -1,0 +1,39 @@
+.page-footer {
+  background-color: #f2f2f2;
+  padding: 30px;
+  width: 480px;
+  margin: auto;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+  margin-right: 70px;
+}
+.footer-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.footer-link {
+  border: none;
+  background-color: transparent;
+}
+
+.footer-icon {
+  fill: inherit;
+  width: 30px;
+  height: 30px;
+  &:hover {
+    fill: #7fc5c5;
+  }
+}

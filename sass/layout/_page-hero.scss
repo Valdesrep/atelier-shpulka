@@ -1,10 +1,83 @@
 .page-hero {
+  background-size: contain;
+  height: 286px;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/cover.jpg);
-  width: 100%;
-  height: 100%;
+    url(../../images/coverww.jpg);
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../../images/cover.jpg);
+    height: 386px;
+    width: 768px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-image: url(../../images/cover.jpg);
+
+    height: 600px;
+    max-width: 11110;
+    width: 1200px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-size: cover;
+    text-align: start;
+  }
 }
+
+.hero-title {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 28px;
+
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 25px;
+    font-size: 40px;
+
+  }
+
+  @media screen and (min-width: 1200px) {
+    color: #7a7a7a;
+  }
+}
+.hero-text {
+  margin-bottom: 15px;
+  
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+    
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    width: 400px;
+    color: #7a7a7a;
+    font-size: 20px;
+  }
+  }
+

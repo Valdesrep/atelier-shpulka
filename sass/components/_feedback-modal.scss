@@ -1,0 +1,43 @@
+.feedback-modal {
+  position: absolute;
+  max-width: 450px;
+  width: 100%;
+  height: 400px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  background-color: #fff;
+}
+.feedback-title {
+  color: #7fc5c5;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.feedback-input {
+  display: block;
+  width: 370px;
+  padding: 5px;
+  padding-left: 10px;
+  border: 2px solid;
+  border-color: #7fc5c5;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.feedback-label {
+  display: block;
+  margin-bottom: 10px;
+}
+.feedback-button {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}

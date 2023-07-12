@@ -1,0 +1,44 @@
+.page-price {
+  padding-top: 60px;
+  // width: 480px;
+  // margin: auto;
+ 
+}
+.price-title {
+  color: #7fc5c5;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.price-pre-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.price-category {
+  color: #7fc5c5;
+  margin-bottom: 20px;
+}
+.price-list {
+  
+  margin-bottom: 20px;
+}
+.price-item {
+  display: flex;
+  justify-content: space-between;
+}
+.price-point {
+  @media screen and (min-width: 768px) {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+.price-pice {
+  color: #7fc5c5;
+  @media screen and (min-width: 768px) {
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
