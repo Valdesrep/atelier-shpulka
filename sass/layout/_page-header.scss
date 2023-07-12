@@ -4,23 +4,24 @@
   align-items: center;
   background-color: #eae9e5e8;
   z-index: 9999;
+  max-width: 480px;
+
 
   @media screen and (min-width: 480px) {
     padding-top: 10px;
     padding-bottom: 11px;
     padding-right: 35px;
     padding-left: 35px;
-    width: 480px;
   }
   @media screen and (min-width: 768px) {
-    width: 768px;
+    max-width: 768px;
     padding-top: 17px;
     padding-bottom: 18px;
     padding-right: 40px;
     padding-left: 40px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: 1200px;
   }
 }
 
@@ -38,8 +39,12 @@
 }
 .number {
   color: #7a7a7a;
+  display: block;
   cursor: pointer;
   font-weight: 700;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.16;
   @media screen and (min-width: 767px) and (max-width: 1199px) {
     font-weight: 700;
     font-size: 12px;
@@ -64,23 +69,8 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-
   @media screen and (max-width: 767px) {
-    position: absolute;
-    top: 0;
-    right: -888px;
-    background-color: #eae9e5e8;
-    flex-direction: column;
-    align-items: start;
-    width: 420px;
-    height: 500px;
-    padding: 90px 50px 50px 80px;
-    transition: transform 1000ms;
-  }
-}
-.page-header.open .nav-list {
-  @media screen and (max-width: 767px) {
-    transform: translateX(-888px);
+    display: none;
   }
 }
 
@@ -112,21 +102,16 @@
     text-decoration: underline;
   }
 }
-.page-header.open .nav-btn-close {
+
+.header-icon {
+  width: 30px;
+  height: 30px;
+}
+.nav-btn-close {
   display: block;
   color: #000;
   position: absolute;
   top: 28px;
   right: 45px;
   z-index: 500;
-}
-.header-icon {
-  width: 30px;
-  height: 30px;
-}
-.nav-btn-close {
-  display: none;
-  @media screen and (min-width: 768px) {
-    display: none;
-  }
 }

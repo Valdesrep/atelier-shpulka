@@ -44,14 +44,14 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 115px;
-  width: 480px;
-  background-image: url(../../images/coverV2.jpg);
+  max-width: 440px;
+  background-image: url('../../images/coverV2.jpg');
 
   @media screen and (min-width: 768px) {
     background-size: cover;
-    width: 768px;
+    max-width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    max-width: 1200px;
   }
 }

@@ -28,21 +28,22 @@
   margin: auto;
 }
 .info-baner {
+  margin: auto;
   display: flex;
   align-items: center;
-  background-image: url(../../images/cover-info.jpg);
+  background-image: url('../../images/cover-info.jpg');
   height: 240px;
-  width: 460px;
+  max-width: 440px;
   background-size: contain;
   background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
     height: 390px;
 
-    width: 748px;
+    max-width: 748px;
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1170px;
+   max-width: 1170px;
     background-size: cover;
   }
 }

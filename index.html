@@ -17,15 +17,11 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header data-modal class="page-header">
+    <header  class="page-header">
       <div class="logo-box">
         <a href="./index.html"><img src="./images/Shpuka.png" /></a>
       </div>
-      <span data-modal-close class="nav-btn-close">
-        <svg class="header-icon">
-          <use href="./images/symbol-defs.svg#icon-close"></use>
-        </svg>
-      </span>
+
       <ul class="nav-list">
         <li class="nav-item">
           <a href="./index.html" class="nav-link">ГОЛОВНА </a>
@@ -46,6 +42,23 @@
             <use href="./images/symbol-defs.svg#icon-menu"></use>
           </svg>
         </button>
+      </div>
+      <div data-modal class="mobile-menu is-hidden">
+        <ul  class="mobile-list ">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">ГОЛОВНА </a>
+          </li>
+          <li class="nav-item">
+            <a href="./price.html" class="nav-link">ПОСЛУГИ</a>
+          </li>
+          <li class="nav-item"><a class="nav-link">ПРО НАС</a></li>
+          <li class="nav-item"><a data-open class="nav-link">КОНТАКТИ</a></li>
+        </ul>
+        <span data-modal-close class="nav-btn-close">
+          <svg class="header-icon">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </span>
       </div>
     </header>
     <section class="page-hero">
@@ -355,7 +368,6 @@
       </div>
     </section>
     <footer class="page-footer">
-      <div class="container">
         <div class="footer-box">
           <div class="logo-box">
             <a href="./index.html"><img src="./images/Shpuka.png" /></a>
@@ -406,7 +418,6 @@
               </a>
             </li>
           </ul>
-        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal-contacts>
