@@ -1,7 +1,7 @@
 .page-price {
   padding-top: 60px;
-  // width: 480px;
-  // margin: auto;
+  max-width: 480px;
+  margin: auto;
  
 }
 .price-title {
@@ -30,15 +30,17 @@
   justify-content: space-between;
 }
 .price-point {
+  font-size: 14px;
   @media screen and (min-width: 768px) {
     font-weight: 700;
     font-size: 20px;
   }
 }
 .price-pice {
+  font-size: 14px;
   color: #7fc5c5;
   @media screen and (min-width: 768px) {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
   }
 }

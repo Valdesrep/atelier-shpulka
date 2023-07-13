@@ -12,6 +12,9 @@
   padding: 40px;
   // padding-top: 50px;
   background-color: #fff;
+  @media screen and (max-width: 479px) {
+    padding: 20px;
+  }
 }
 .contacts-title {
   color: #7fc5c5;
@@ -54,4 +57,8 @@
   &:hover {
     background-color: #7fc5c5;
   }
+}
+.iframe {
+  display: block;
+  margin: auto;
 }

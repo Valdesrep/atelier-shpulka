@@ -31,7 +31,7 @@
   margin: auto;
   display: flex;
   align-items: center;
-  background-image: url('../../images/cover-info.jpg');
+  background-image: url(../../images/cover-info.jpg);
   height: 240px;
   max-width: 440px;
   background-size: contain;
@@ -43,7 +43,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-   max-width: 1170px;
+    max-width: 1170px;
     background-size: cover;
   }
 }
@@ -68,6 +68,7 @@
 .info-descript {
   font-size: 12px;
 
-  @media screen and (min-width: 768px){  font-size: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
   }
 }
