@@ -10,7 +10,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url('../../images/coverww.jpg');
+    url('/images/coverww.jpg');
   padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
@@ -24,7 +24,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url('../../images/cover.jpg');
+      url('/images/cover.jpg');
     height: 386px;
     max-width: 768px;
     padding-top: 40px;
@@ -34,7 +34,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url('../../images/cover.jpg');
+    background-image: url('/images/cover.jpg');
 
     height: 600px;
     max-width: 1200px;
