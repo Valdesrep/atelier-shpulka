@@ -1,6 +1,5 @@
 .page-hero {
   background-size: contain;
-  // height: 286px;
   max-width: 480px;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +33,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url('/images/cover.jpg');
+    background-image: url(/images/cover.jpg);
 
     height: 600px;
     max-width: 1200px;

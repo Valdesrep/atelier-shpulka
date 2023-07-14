@@ -239,7 +239,6 @@ a {
   margin: auto;
   display: block;
   min-width: 280px;
-  max-width: 370px;
   padding: 5px;
   padding-left: 10px;
   border: 2px solid;
@@ -441,7 +440,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .page-hero {
-    background-image: url("/images/cover.jpg");
+    background-image: url(/images/cover.jpg);
     height: 600px;
     max-width: 1200px;
     padding-top: 120px;
