@@ -1,0 +1,23 @@
+.partners{padding-bottom: 30px;}
+.partners-banner {
+  background-image: url(../../images/part-min.jpg);
+  height: 200px;
+  max-width: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+    max-width: 748px;
+    height: 390px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1170px;
+    height: 600px;
+  }
+}
+.partners-title {
+  text-align: center;
+  color: #7fc5c5;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}

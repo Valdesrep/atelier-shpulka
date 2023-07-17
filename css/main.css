@@ -162,6 +162,16 @@ a {
   max-width: 480px;
   margin: auto;
 }
+@media screen and (min-width: 768px) {
+  .page-price {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-price {
+    max-width: 1200px;
+  }
+}
 
 .price-title {
   color: #7fc5c5;
@@ -548,10 +558,6 @@ a {
   }
 }
 
-.page-examples {
-  padding-bottom: 60px;
-}
-
 .examples-title {
   text-align: center;
   color: #7fc5c5;
@@ -661,6 +667,45 @@ a {
 .examples-link {
   text-decoration: none;
   color: inherit;
+}
+
+.examples-inst {
+  position: relative;
+  background-color: #7fc5c5;
+  width: 370px;
+  height: 290px;
+}
+@media screen and (min-width: 768px) {
+  .examples-inst {
+    width: 339px;
+    height: 272px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .examples-inst {
+    width: 360px;
+    height: 290px;
+  }
+}
+
+.examples-inst-logo {
+  position: absolute;
+  top: 110px;
+  left: 140px;
+  width: 80px;
+  height: 80px;
+}
+@media screen and (min-width: 768px) {
+  .examples-inst-logo {
+    left: 130px;
+    top: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .examples-inst-logo {
+    left: 140px;
+    top: 110px;
+  }
 }
 
 .page-info {
@@ -797,4 +842,36 @@ a {
 }
 .footer-icon:hover {
   fill: #7fc5c5;
+}
+
+.partners {
+  padding-bottom: 30px;
+}
+
+.partners-banner {
+  background-image: url(../../images/part-min.jpg);
+  height: 200px;
+  max-width: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .partners-banner {
+    max-width: 748px;
+    height: 390px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partners-banner {
+    max-width: 1170px;
+    height: 600px;
+  }
+}
+
+.partners-title {
+  text-align: center;
+  color: #7fc5c5;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
 }/*# sourceMappingURL=main.css.map */
