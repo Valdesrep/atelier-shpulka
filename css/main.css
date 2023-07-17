@@ -429,7 +429,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/coverww.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../.././images/coverww.jpg);
   padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
@@ -439,7 +439,7 @@ a {
 }
 @media screen and (min-width: 768px) {
   .page-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/cover.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../.././images/cover.jpg);
     height: 386px;
     max-width: 768px;
     padding-top: 40px;
@@ -746,7 +746,7 @@ a {
   margin: auto;
   display: flex;
   align-items: center;
-  background-image: url("/images/cover-info.jpg");
+  background-image: url("../../images/cover-info.jpg");
   height: 240px;
   max-width: 440px;
   background-size: contain;
