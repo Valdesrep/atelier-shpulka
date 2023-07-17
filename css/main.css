@@ -849,7 +849,7 @@ a {
 }
 
 .partners-banner {
-  background-image: url(../../images/part-min.jpg);
+  background-image: url("../images/part.jpg");
   height: 200px;
   max-width: 440px;
   background-size: cover;
