@@ -450,7 +450,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .page-hero {
-    background-image: url(/images/cover.jpg);
+    background-image: url("../images/cover.jpg");
     height: 600px;
     max-width: 1200px;
     padding-top: 120px;
