@@ -1,16 +1,18 @@
 @import "./base/common";
+
 @import "./components/container";
 @import "./components/button";
 @import "./components/backdrop.scss";
 @import "./components/contacts-modal";
-@import "./layout/page-price";
 @import "./components/feedback-modal";
 @import "./components/mobile-menu";
-@import "./layout//page-header";
 @import "./components/logo";
+
+@import "./layout//page-header";
 @import "./layout/page-hero";
 @import "./layout/page-services";
 @import "./layout/page-examples";
 @import "./layout/page-info";
+@import "./layout/page-partners";
 @import "./layout/page-footer";
-@import './layout/page-partners'
+@import "./layout/page-price";
