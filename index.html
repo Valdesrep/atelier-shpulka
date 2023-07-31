@@ -77,7 +77,7 @@
         японське обладнання. А також безцінний досвід та золоті руки наших
         майстринь.
       </p>
-      <button data-open-feedback class="button" type="button">
+      <button data-open-feedback class="button hero-button" type="button">
         OТРИМАТИ КОНСУЛЬТАЦІЮ
       </button>
     </section>
@@ -589,32 +589,7 @@
           </p>
           <a href="./price.html" class="button info-button"> ВІДКРИТИ ПРАЙС </a>
         </div>
-        <div class="info-baner">
-          <div class="info-icon">
-            <img class="info-img" src="./images/info-icon/info1.webp" />
-            <p class="info-descript">
-              В 99% ВИПАДКІВ МИ ДАЄМО РІШЕННЯ З ПОРЯТУНКУ РЕЧЕЙ
-            </p>
-          </div>
-          <div class="info-icon">
-            <img class="info-img" src="./images/info-icon/info2.webp" />
-            <p class="info-descript">
-              КОНСУЛЬТУЄМО ЗА ФОТО І ПРАЦЮЄМО БЕЗ ВИХІДНИХ
-            </p>
-          </div>
-          <div class="info-icon">
-            <img class="info-img" src="./images/info-icon/info3.webp" />
-            <p class="info-descript">
-              ЦІНУ РОЗРАХОВУЄМО ДО ПОЧАТКУ РОБІТ І НЕ ЗМІНЮЄМО В ПРОЦЕСІ
-            </p>
-          </div>
-          <div class="info-icon">
-            <img class="info-img" src="./images/info-icon/info4.webp" />
-            <p class="info-descript">
-              ДОТРИМУЄМОСЯ СТРОКІВ І ВИКОНУЄМО ТЕРМІНОВІ ЗАМОВЛЕННЯ
-            </p>
-          </div>
-        </div>
+        <div class="info-baner"></div>
       </div>
     </section>
     <section class="partners">
@@ -780,7 +755,8 @@
       <input
         id="tel"
         name="tel"
-        placeholder="Введіть номер телефону"
+        pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" 
+        placeholder="+380637772244"
         class="feedback-input"
         type="tel"
       />

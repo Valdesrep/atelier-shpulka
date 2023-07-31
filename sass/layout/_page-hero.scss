@@ -1,6 +1,7 @@
 .page-hero {
-  background-size: contain;
+  background-size: cover;
   max-width: 480px;
+  height: 322px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
@@ -9,7 +10,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/coverww.jpg");
+    url("../images/covern.jpg");
   padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
@@ -23,8 +24,9 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/cover.jpg");
-    height: 386px;
+      url("../images/covern.jpg");
+    background-size: cover;
+    height: 500px;
     max-width: 768px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -33,9 +35,14 @@
   }
 
   @media screen and (min-width: 1200px) {
-    background-image: url("../images/cover.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/covern.jpg");
 
-    height: 600px;
+    height: 700px;
     max-width: 1200px;
     padding-top: 120px;
     padding-bottom: 40px;
@@ -57,7 +64,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    color: #7a7a7a;
   }
 }
 .hero-text {
@@ -65,12 +71,20 @@
 
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
+    font-size: 20px;
   }
 
   @media screen and (min-width: 1200px) {
     display: block;
     width: 400px;
-    color: #7a7a7a;
-    font-size: 20px;
+  }
+}
+.hero-button {
+  @media screen and (min-width: 480px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 40px;
   }
 }

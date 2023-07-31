@@ -34,24 +34,23 @@
   padding-left: 5px;
   margin-right: 5px;
 
-
   @media screen and (min-width: 768px) {
     width: 236px;
-
   }
 }
 .services-baner {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 115px;
+  height: 130px;
   max-width: 440px;
-  background-image: url('../images/coverV2.jpg');
+  background-image: url("../images/coverV3.jpg");
 
   @media screen and (min-width: 768px) {
-    background-size: cover;
+    height: 200px;
     max-width: 768px;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 1200px;
+    height: 400px;
+    max-width: 1170px;
   }
 }

@@ -29,46 +29,20 @@
 }
 .info-baner {
   margin: auto;
-  display: flex;
-  align-items: center;
-  background-image: url('../images/info.jpg');
+  background-image: url("../images/info-img.jpg");
   height: 240px;
   max-width: 440px;
   background-size: contain;
   background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
-    height: 390px;
+    height: 360px;
 
     max-width: 748px;
   }
 
   @media screen and (min-width: 1200px) {
     max-width: 1170px;
-    background-size: cover;
-  }
-}
-.info-icon {
-  text-align: center;
-  color: #fff;
-  height: 134px;
-  @media screen and (min-width: 768px) {
-    flex-basis: calc(100% / 4);
-    height: 164px;
-  }
-}
-.info-img {
-  margin: auto;
-  text-align: center;
-  margin-bottom: 20px;
-  height: 40px;
-  @media screen and (min-width: 768px) {
-    height: 50px;
-  }
-}
-.info-descript {
-  font-size: 12px;
-
-  @media screen and (min-width: 768px) {
-    font-size: 16px;
+    height: 600px;
+    background-size: contain;
   }
 }

@@ -157,76 +157,9 @@ a {
   margin: auto;
 }
 
-.page-price {
-  padding-top: 60px;
-  max-width: 480px;
-  margin: auto;
-}
-@media screen and (min-width: 768px) {
-  .page-price {
-    max-width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .page-price {
-    max-width: 1200px;
-  }
-}
-
-.price-title {
-  color: #7fc5c5;
-  text-align: center;
-  font-weight: 700;
-  font-size: 30px;
-  margin-bottom: 40px;
-}
-
-.price-pre-title {
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 40px;
-}
-
-.price-category {
-  color: #7fc5c5;
-  margin-bottom: 20px;
-}
-
-.price-list {
-  margin-bottom: 20px;
-}
-
-.price-item {
-  display: flex;
-  justify-content: space-between;
-}
-
-.price-point {
-  font-size: 14px;
-}
-@media screen and (min-width: 768px) {
-  .price-point {
-    font-weight: 700;
-    font-size: 20px;
-  }
-}
-
-.price-pice {
-  font-size: 14px;
-  color: #7fc5c5;
-}
-@media screen and (min-width: 768px) {
-  .price-pice {
-    font-weight: 400;
-    font-size: 18px;
-  }
-}
-
 .feedback-modal {
   position: absolute;
-  max-width: 450px;
-  max-width: 100%;
+  max-width: 360px;
   height: 400px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -287,6 +220,10 @@ a {
   .mobile-menu {
     display: none;
   }
+}
+
+.logo-box {
+  width: 100px;
 }
 
 .page-header {
@@ -419,17 +356,14 @@ a {
   right: 45px;
 }
 
-.logo-box {
-  width: 100px;
-}
-
 .page-hero {
-  background-size: contain;
+  background-size: cover;
   max-width: 480px;
+  height: 322px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/coverww.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/covern.jpg");
   padding-top: 25px;
   padding-left: 20px;
   padding-right: 20px;
@@ -439,8 +373,9 @@ a {
 }
 @media screen and (min-width: 768px) {
   .page-hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/cover.jpg");
-    height: 386px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/covern.jpg");
+    background-size: cover;
+    height: 500px;
     max-width: 768px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -450,8 +385,8 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .page-hero {
-    background-image: url("../images/cover.jpg");
-    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/covern.jpg");
+    height: 700px;
     max-width: 1200px;
     padding-top: 120px;
     padding-bottom: 40px;
@@ -473,26 +408,30 @@ a {
     font-size: 40px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .hero-title {
-    color: #7a7a7a;
-  }
-}
-
 .hero-text {
   margin-bottom: 15px;
 }
 @media screen and (min-width: 768px) {
   .hero-text {
     margin-bottom: 40px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
   .hero-text {
     display: block;
     width: 400px;
-    color: #7a7a7a;
-    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero-button {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-button {
+    margin-top: 40px;
   }
 }
 
@@ -540,21 +479,22 @@ a {
 }
 
 .services-baner {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 115px;
+  height: 130px;
   max-width: 440px;
-  background-image: url("../images/coverV2.jpg");
+  background-image: url("../images/coverV3.jpg");
 }
 @media screen and (min-width: 768px) {
   .services-baner {
-    background-size: cover;
+    height: 200px;
     max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .services-baner {
-    max-width: 1200px;
+    height: 400px;
+    max-width: 1170px;
   }
 }
 
@@ -744,9 +684,7 @@ a {
 
 .info-baner {
   margin: auto;
-  display: flex;
-  align-items: center;
-  background-image: url("../images/info.jpg");
+  background-image: url("../images/info-img.jpg");
   height: 240px;
   max-width: 440px;
   background-size: contain;
@@ -754,48 +692,44 @@ a {
 }
 @media screen and (min-width: 768px) {
   .info-baner {
-    height: 390px;
+    height: 360px;
     max-width: 748px;
   }
 }
 @media screen and (min-width: 1200px) {
   .info-baner {
     max-width: 1170px;
-    background-size: cover;
+    height: 600px;
+    background-size: contain;
   }
 }
 
-.info-icon {
+.partners-banner {
+  background-image: url("../images/part-img.jpg");
+  height: 200px;
+  max-width: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .partners-banner {
+    max-width: 748px;
+    height: 390px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partners-banner {
+    max-width: 1170px;
+    height: 600px;
+  }
+}
+
+.partners-title {
   text-align: center;
-  color: #fff;
-  height: 134px;
-}
-@media screen and (min-width: 768px) {
-  .info-icon {
-    flex-basis: 25%;
-    height: 164px;
-  }
-}
-
-.info-img {
-  margin: auto;
-  text-align: center;
-  margin-bottom: 20px;
-  height: 40px;
-}
-@media screen and (min-width: 768px) {
-  .info-img {
-    height: 50px;
-  }
-}
-
-.info-descript {
-  font-size: 12px;
-}
-@media screen and (min-width: 768px) {
-  .info-descript {
-    font-size: 16px;
-  }
+  color: #7fc5c5;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 
 .page-footer {
@@ -844,34 +778,68 @@ a {
   fill: #7fc5c5;
 }
 
-.partners {
-  padding-bottom: 30px;
-}
-
-.partners-banner {
-  background-image: url("../images/part.jpg");
-  height: 200px;
-  max-width: 440px;
-  background-size: cover;
-  background-repeat: no-repeat;
+.page-price {
+  padding-top: 60px;
+  max-width: 480px;
+  margin: auto;
 }
 @media screen and (min-width: 768px) {
-  .partners-banner {
-    max-width: 748px;
-    height: 390px;
+  .page-price {
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .partners-banner {
-    max-width: 1170px;
-    height: 600px;
+  .page-price {
+    max-width: 1200px;
   }
 }
 
-.partners-title {
-  text-align: center;
+.price-title {
   color: #7fc5c5;
+  text-align: center;
   font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.price-pre-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.price-category {
+  color: #7fc5c5;
+  margin-bottom: 20px;
+}
+
+.price-list {
+  margin-bottom: 20px;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-point {
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .price-point {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}
+
+.price-pice {
+  font-size: 14px;
+  color: #7fc5c5;
+}
+@media screen and (min-width: 768px) {
+  .price-pice {
+    font-weight: 400;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=main.css.map */
